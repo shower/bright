@@ -9,9 +9,9 @@ To see Bright theme in action:
 - Use arrow keys to navigate
 - Press `Esc` to exit presentation mode
 
-See more details in Shower [readme](https://github.com/shower/shower#readme). Follow [@shower_me](http://twitter.com/shower_me/) for support and updates. Use [Issues](https://github.com/shower/shower/issues) for sharing your ideas, bugs and feature requests.
+Theme is included by default to [shower](https://github.com/shower/shower) and [template](https://github.com/shower/template), but you can also download theme as an archive: [shwr.me/bright.zip](http://shwr.me/bright.zip).
 
-**Please note** this repository is for development only. To get Shower please use [template](https://github.com/shower/template) or [shower](https://github.com/shower/shower) engine.
+See more details in Shower [readme](https://github.com/shower/shower#readme). Follow [@shower_me](http://twitter.com/shower_me/) for support and updates. Use [Issues](https://github.com/shower/shower/issues) for sharing your ideas, bugs and feature requests.
 
 ---
 Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](shower/wiki/MIT-License) for details.
