@@ -164,14 +164,14 @@ a {
 			}
 		}
 	ul > li:before {
-		content:'\2022\00A0\00A0';
+		content:'\2022\00A0\00A0\2009';
 		}
 	ul > li:lang(ru):before {
-		content:'\2014\00A0\00A0';
+		content:'\2014\00A0\2009';
 		}
 	ol > li:before {
 		counter-increment:list;
-		content:counter(list)'.\00A0';
+		content:counter(list)'.\00A0\2009';
 		}
 	// Code
 	pre {
