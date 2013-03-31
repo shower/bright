@@ -77,7 +77,7 @@ a {
 		right:0;
 		bottom:45px;
 		left:0;
-		color:#CCC;
+		color:#AAA;
 		counter-increment:slide;
 		content:counter(slide);
 		text-align:center;
@@ -154,7 +154,7 @@ a {
 			&:before {
 				display:inline-block;
 				width:2em;
-				color:#CCC;
+				color:#AAA;
 				text-align:right;
 				}
 			}
@@ -188,7 +188,7 @@ a {
 			&:before {
 				position:absolute;
 				margin-left:-50px;
-				color:#CCC;
+				color:#AAA;
 				counter-increment:code;
 				content:counter(code, decimal-leading-zero)'.';
 				}
@@ -207,7 +207,7 @@ a {
 				color:#FFF;
 				}
 			&.comment {
-				color:#BBB;
+				color:#AAA;
 				}
 			}
 		}
@@ -369,7 +369,6 @@ a {
 				top:100%;
 				bottom:auto;
 				padding-top:50px;
-				color:#BBB;
 				@media (max-width:$break) {
 					width:$width/2;
 					@include transform-origin(0 0);
