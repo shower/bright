@@ -16,6 +16,9 @@ $ratio:'';
 $width:1024px;
 $height:640px;
 
+// #52A2DF 1px
+$dot:'data:image/gif;base64,R0lGODdhAQABAPAAAFKi3wAAACH/C1hNUCBEYXRhWE1QAz94cAAsAAAAAAEAAQBAAgJEAQA7';
+
 @if $height == 640px {
 	$ratio:'16x10';
 }
