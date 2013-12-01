@@ -1,6 +1,6 @@
 # Bright theme for Shower
 
-Bright theme for [shower](https://github.com/shower/shower) engine, part of [template](https://github.com/shower/template).
+Bright theme for [shower](https://github.com/shower/shower) HTML presentation engine, part of [template](https://github.com/shower/template).
 
 To see Bright theme in action:
 
