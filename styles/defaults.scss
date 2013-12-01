@@ -10,7 +10,6 @@ $top:100px;     // Top padding above slide content
 $left:128px;    // Left slide content padding
 $right:96px;    // Right slide content padding
 $break:1180px;  // Window width for small thumbnails to appear
-$ratio:'';
 
 // Slide Dimentions
 $width:1024px;
@@ -20,10 +19,10 @@ $height:640px;
 $dot:'data:image/gif;base64,R0lGODdhAQABAPAAAFKi3wAAACH/C1hNUCBEYXRhWE1QAz94cAAsAAAAAAEAAQBAAgJEAQA7';
 
 @if $height == 640px {
-	$ratio:'16x10';
+	$ratio:'16x10' !global;
 }
 @if $height == 768px {
-	$ratio:'4x3';
+	$ratio:'4x3' !global;
 	$top:$top + 16px;
 }
 
@@ -32,29 +31,4 @@ $dot:'data:image/gif;base64,R0lGODdhAQABAPAAAFKi3wAAACH/C1hNUCBEYXRhWE1QAz94cAAs
 	@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 		@content;
 		}
-	}
-@mixin tab-size($n) {
-	-moz-tab-size:$n;
-	-o-tab-size:$n;
-	tab-size:$n;
-	}
-@mixin transform($n) {
-	-webkit-transform:$n;
-	-moz-transform:$n;
-	-ms-transform:$n;
-	-o-transform:$n;
-	transform:$n;
-	}
-@mixin transform-origin($n) {
-	-webkit-transform-origin:$n;
-	-moz-transform-origin:$n;
-	-ms-transform-origin:$n;
-	-o-transform-origin:$n;
-	transform-origin:$n;
-	}
-@mixin transition($n) {
-	-webkit-transition:$n;
-	-moz-transition:$n;
-	-o-transition:$n;
-	transition:$n;
 	}
