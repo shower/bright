@@ -14,7 +14,6 @@ The most important part of the project is the [Shower](https://github.com/shower
 
 Before contributing to Shower, please read through [Issues](https://github.com/shower/shower/issues?state=open) to see open bugs and feature requests. If you have any feature to add to Shower, please make sure that you file an issue with your ideas first. If you've found a bug and want to fix it, please file an issue first. It might be a feature!
 
-
 ## Process
 
 To contribute to Shower, fork needed repository and start making changes. Don't forget to add upstream link to original repository and keep your fork updated. When you finish, send pull request back to original repository and supply clear description or link to existing issue.
