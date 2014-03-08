@@ -1,15 +1,15 @@
 {
   "name": "shower-bright",
   "description": "Bright theme for Shower HTML presentation engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Vadim Makeev",
     "url": "http://pepelsbey.com/"
   },
   "homepage": "http://shwr.me/",
   "repository": {
-  	"type": "git",
-  	"url": "git://github.com/shower/bright.git"
+    "type": "git",
+    "url": "git://github.com/shower/bright.git"
   },
   "bugs": {
     "url": "http://github.com/shower/shower/issues"
