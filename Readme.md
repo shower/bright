@@ -1,17 +1,15 @@
-# Bright theme for Shower
+# Bright theme for Shower HTML presentation engine
 
-Bright theme for [shower](https://github.com/shower/shower) HTML presentation engine, part of [template](https://github.com/shower/template).
+Follow [@shower_me](https://twitter.com/shower_me) for support and updates
 
-To see Bright theme in action:
+To see Bright theme for Shower in action:
 
-- Open [shwr.me/shower/themes/bright/](http://shwr.me/shower/themes/bright/)
+- Open [shwr.me/shower/themes/ribbon](http://shwr.me/shower/themes/ribbon/)
 - Click any slide to enter presentation mode
-- Use arrow keys to navigate
+- Use arrow keys or presenter remote to navigate
 - Press `Esc` to exit presentation mode
 
-Theme is included by default to [shower](https://github.com/shower/shower) and [template](https://github.com/shower/template), but you can also download theme as an archive: [shwr.me/bright.zip](http://shwr.me/bright.zip).
-
-See more details in Shower [readme](https://github.com/shower/shower#readme). Follow [@shower_me](http://twitter.com/shower_me/) for support and updates. Use [Issues](https://github.com/shower/shower/issues) for sharing your ideas, bugs and feature requests.
+Part of [Shower presentation template](https://github.com/shower/shower/). See [Wiki](https://github.com/shower/shower/wiki) for more information how to use Shower.
 
 ---
 Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](https://github.com/shower/shower/wiki/MIT-License) for details.
