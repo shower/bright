@@ -11,6 +11,7 @@ body {
 	font:24px/2 'Open Sans', sans-serif;
 	}
 a {
+	color:$color;
 	text-decoration:none;
 	}
 
@@ -23,12 +24,6 @@ a {
 	color:#555;
 	h1 {
 		font:50px 'Open Sans Light', sans-serif;
-		}
-	a {
-		color:$color;
-		&:hover {
-			border-bottom:0.1em solid;
-			}
 		}
 	}
 
@@ -108,7 +103,6 @@ a {
 		margin:0 0 48px;
 		}
 	a {
-		border-bottom:0.1em solid;
 		color:$color;
 		}
 	b, strong {
@@ -294,7 +288,6 @@ a {
 			font-size:100px;
 			transform:translateY(-50%);
 			a {
-				border-bottom:none;
 				color:#FFF;
 				}
 			}
