@@ -4,7 +4,7 @@ Follow [@shower_me](https://twitter.com/shower_me) for support and updates
 
 To see Bright theme for Shower in action:
 
-- Open [shwr.me/shower/themes/ribbon](http://shwr.me/shower/themes/ribbon/)
+- Open [shwr.me/shower/themes/bright](http://shwr.me/shower/themes/bright/)
 - Click any slide to enter presentation mode
 - Use arrow keys or presenter remote to navigate
 - Press `Esc` to exit presentation mode
