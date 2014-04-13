@@ -347,12 +347,8 @@ a {
 		position:absolute;
 		clip:rect(0, auto, auto, 0); // Having fun with IE10
 		padding:50px 0 50px 50px;
-		background:#E2E2E2 url(../images/mesh.png) 50% 0;
+		background:desaturate(lighten($color, 30%), 60%);
 		text-align:center;
-		@include retina {
-			background-image:url(../images/mesh@2x.png);
-			background-size:256px;
-			}
 		// Outfit
 		.caption,
 		.badge {
