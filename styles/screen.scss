@@ -12,6 +12,7 @@ body {
 	}
 a {
 	color:$color;
+	@include underline($color, 0.09);
 	text-decoration:none;
 	}
 
@@ -288,6 +289,7 @@ a {
 			font-size:100px;
 			transform:translateY(-50%);
 			a {
+				@include underline(#FFF, 0.055);
 				color:#FFF;
 				}
 			}
