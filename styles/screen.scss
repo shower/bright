@@ -332,10 +332,13 @@ a {
 		bottom:-$height;
 		z-index:1;
 		display:none;
-		padding:20px $right 20px $left;
+		padding:21px $right 4px $left;
 		background:#fafac4;
 		box-shadow:0 0 0 2px rgba(#000, 0.05);
 		transition:bottom 0.3s;
+		p {
+			margin:0 0 16px;
+			}
 		}
 	&:hover footer {
 		bottom:0;
