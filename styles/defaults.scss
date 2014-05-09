@@ -14,9 +14,6 @@ $ratio:'16x10'; // Available options: '16x10' or '4x3'
 // Colors
 $color:#52A2DF;
 
-// #52A2DF 1px
-$dot:'data:image/gif;base64,R0lGODdhAQABAPAAAFKi3wAAACH/C1hNUCBEYXRhWE1QAz94cAAsAAAAAAEAAQBAAgJEAQA7';
-
 // Mixins
 @mixin retina {
 	@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
