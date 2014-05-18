@@ -1,4 +1,4 @@
-# Bright theme for Shower HTML presentation engine
+# Bright theme for Shower
 
 Follow [@shower_me](https://twitter.com/shower_me) for support and updates
 
