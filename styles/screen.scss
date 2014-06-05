@@ -109,8 +109,8 @@ a {
 	p {
 		margin:0 0 48px;
 		}
-	a {
-		color:$color;
+	p.note {
+		color:#AAA;
 		}
 	b, strong {
 		font-weight:bold;
@@ -118,12 +118,17 @@ a {
 	i, em {
 		font-style:italic;
 		}
-	kbd, code, samp {
-		padding:2px 7px;
-		background:rgba(#000, 0.1);
-		tab-size:4;
+	code, kbd, samp {
+		padding:5px 7px 1px;
+		background:rgba(#000, 0.08);
+		color:#000;
 		line-height:1;
 		font-family:'Anka Coder', monospace;
+		}
+	mark {
+		padding:2px 7px;
+		background:$yellow;
+		color:#000;
 		}
 	sub, sup {
 		position: relative;
@@ -141,7 +146,7 @@ a {
 		font-style:italic;
 		&:before {
 			position:absolute;
-			margin:-50px 0 0 -100px;
+			margin:-49px 0 0 -100px;
 			color:#DDD;
 			content:'\201C';
 			line-height:1;
@@ -166,8 +171,7 @@ a {
 				text-align:right;
 				}
 			}
-		ol,
-		ul {
+		ol, ul {
 			margin:0 0 0 2em;
 			}
 		}
@@ -187,6 +191,7 @@ a {
 		padding:3px 0 0;
 		counter-reset:code;
 		white-space:normal;
+		tab-size:4;
 		code {
 			display:block;
 			padding:0;
@@ -206,15 +211,14 @@ a {
 			}
 		// Mark
 		mark {
-			background:none;
-			color:$color;
-			font-style:normal;
+			padding:5px 7px 1px;
 			&.important {
-				padding:3px 7px 0;
 				background:$color;
 				color:#FFF;
 				}
 			&.comment {
+				padding:0;
+				background:none;
 				color:#AAA;
 				}
 			}
@@ -339,7 +343,7 @@ a {
 		z-index:1;
 		display:none;
 		padding:21px $right 4px $left;
-		background:#fafac4;
+		background:$yellow;
 		box-shadow:0 0 0 2px rgba(#000, 0.05);
 		transition:bottom 0.3s;
 		p {
