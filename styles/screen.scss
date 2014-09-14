@@ -58,6 +58,12 @@ a {
 		transform:rotate(45deg) translateY(-1em);
 		}
 
+// Live Region
+// -------------------------------
+.live-region {
+	display:none;
+	}
+
 // Slide
 // -------------------------------
 .slide {
@@ -479,6 +485,11 @@ a {
 			z-index:2;
 			background:url(../images/grid-#{$ratio}.svg) no-repeat;
 			content:'';
+			}
+		// Live Region
+		.live-region {
+			@include offscreen;
+			display:block;
 			}
 		// Slide
 		.slide {
