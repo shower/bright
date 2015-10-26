@@ -1,22 +1,22 @@
 // Bright theme for Shower HTML presentation engine: github.com/shower/shower
-// Copyright © 2010–2014 Vadim Makeev, pepelsbey.net
+// Copyright © 2010–2015 Vadim Makeev, pepelsbey.net
 // Licensed under MIT license: github.com/shower/shower/wiki/MIT-License
 
 @import 'defaults';
 @import 'fonts';
 @import 'reset';
 
-body {
+.shower {
 	counter-reset:slide;
 	font:24px/2 'Open Sans', sans-serif;
 	@media print {
 		text-rendering:geometricPrecision;
 		}
-	}
-a {
-	color:$color;
-	@include underline(currentColor, 0.09);
-	text-decoration:none;
+	a {
+		color:$color;
+		@include underline(currentColor, 0.09);
+		text-decoration:none;
+		}
 	}
 
 // Caption
@@ -58,9 +58,9 @@ a {
 		transform:rotate(45deg) translateY(-1em);
 		}
 
-// Live Region
+// Region
 // -------------------------------
-.live-region {
+.region {
 	display:none;
 	}
 
@@ -367,7 +367,7 @@ a {
 // Screen
 @media screen {
 	// List
-	.list {
+	.shower.list {
 		position:absolute;
 		clip:rect(0, auto, auto, 0); // Having fun with IE10
 		padding:50px 0 50px 50px;
@@ -466,7 +466,7 @@ a {
 			}
 		}
 	// Full
-	.full {
+	.shower.full {
 		position:absolute;
 		top:50%;
 		left:50%;
@@ -486,8 +486,8 @@ a {
 			background:url(../images/grid-#{$ratio}.svg) no-repeat;
 			content:'';
 			}
-		// Live Region
-		.live-region {
+		// Region
+		.region {
 			@include offscreen;
 			display:block;
 			}
@@ -531,19 +531,13 @@ a {
 		// Progress
 		.progress {
 			position:absolute;
-			right:0;
 			bottom:0;
 			left:0;
 			z-index:1;
-			div {
-				position:absolute;
-				left:0;
-				bottom:0;
-				width:0;
-				height:8px;
-				background:$color;
-				transition:width 0.2s linear;
-				}
+			width:0;
+			height:8px;
+			background:$color;
+			transition:width 0.2s linear;
 			}
 		}
 	}
